@@ -12,17 +12,18 @@
             <div class="header">
                 <img src="" alt="лого сайта с кошкой">
                 <h1>Title</h1>
-                <p class="page">Home</p>
+                <p class="page home">Home</p>
                 <p class="page">Library</p>
                 <button class="account login">Login</button>
                 <button class="account sing-up">Sing-up</button>
             </div>
         </header>
     <main>
+        <p><b>Title</b> - это сайт, для подбора породы кошки человеку под его образжизни и предпочтения в уходе,характкре(и тд.) животного</p>
         <h2>Анкета для подбора породы кошки</h2>
         <div class="form-check">
+            <div class="form-check-house check">
                 <p>место проживания с кошкой</p>
-                <div class="form-check-house">
                 <label class="house-label" for="radio-house">
                     <input class="house-input" type="radio" id="radio-house" name="place">дом
                 </label>
@@ -30,8 +31,8 @@
                     <input class="house-input" type="radio" id="radio-house" name="place">квартира
                 </label>
             </div>
-            <p>наличие других животных</p>
-                <div class="form-check-animal">
+            <div class="form-check-animal check">
+                <p>наличие других животных</p>
                 <label class="animal-label" for="radio-animal">
                     <input class="animal-label" type="radio" id="radio-animal" name="creature">есть
                 </label>
@@ -39,8 +40,8 @@
                     <input class="animal-input" type="radio" id="radio-animal" name="creature">нет
                 </label>
             </div>
-            <p>длинна шерсти кошки</p>
-                <div class="form-check-wool">
+            <div class="form-check-wool check">
+                <p>длинна шерсти кошки</p>
                 <label class="wool-label" for="radio-wool">
                     <input class="wool-input" type="radio" id="radio-wool" name="fur">длинная
                 </label>
@@ -54,8 +55,8 @@
                     <input class="wool-input" type="radio" id="radio-wool" name="fur">без шерсти
                 </label>
             </div>
+            <div class="form-check-activity check">
                 <p>активность кошки</p>
-                <div class="form-check-activity">
                 <label class="activity-label" for="radio-activity">
                     <input class="activity-label" type="radio" id="radio-activity" name="energy">высокий
                 </label>
@@ -66,20 +67,35 @@
                     <input class="activity-input" type="radio" id="radio-activity" name="energy">низкий
                 </label>
             </div>
-            <p>частота миуканья</p>
-            <div class="form-check-meow">
-            <label class="meow-label" for="radio-meow">
-                <input class="meow-label" type="radio" id="radio-meow" name="voice">часто
-            </label>
-            <label class="meow-label" for="radio-meowl">
-                <input class="meow-input" type="radio" id="radio-meow" name="voice">иногда
-            </label>
-            <label class="meow-label" for="radio-meowl">
-                <input class="meow-input" type="radio" id="radio-meow" name="voice">редко
-            </label>
+            <div class="form-check-meow check">
+                <p>частота мяуканья</p>
+                <label class="meow-label" for="radio-meow">
+                    <input class="meow-label" type="radio" id="radio-meow" name="voice">часто
+                </label>
+                <label class="meow-label" for="radio-meowl">
+                    <input class="meow-input" type="radio" id="radio-meow" name="voice">иногда
+                </label>
+                <label class="meow-label" for="radio-meowl">
+                    <input class="meow-input" type="radio" id="radio-meow" name="voice">редко
+                </label>
+            </div>
+            <div class="form-check-care check">
+                <p>уход  за кошкой</p>
+                <label class="care-label" for="radio-care">
+                    <input class="care-label" type="radio" id="radio-care" name="maintenance">сложно
+                </label>
+                <label class="care-label" for="radio-care">
+                    <input class="care-input" type="radio" id="radio-care" name="maintenance">средне
+                </label>
+                <label class="care-label" for="radio-care">
+                    <input class="care-input" type="radio" id="radio-care" name="maintenance">легко
+                </label>
+            </div>
         </div>
-        </div>
-
+        <button class="result">подобрать породу</button>
     </main>
+    <div class="bottom">
+        <!-- контактная информация -->
+    </div>
 </body>
 </html>
