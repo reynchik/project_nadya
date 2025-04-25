@@ -11,6 +11,12 @@
 body{
     font-family: "Roboto", sans-serif;
     background-color: #FFFDF8;
+    /* background-image: url('cats1.jpg'); */
+    /* background-size: 100vw 100vh; */
+}
+
+main{
+    /* background-color: #FFFDF8; */
 }
 
 header{
@@ -32,6 +38,23 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+
+.account-login{
+    height: 20px;
+    width: 4%;
+    background-color: #523000;
+    color: white;
+    border-radius: 7px;
+}
+
+.account-sing-up{
+    height: 20px;
+    width: 4%;
+    background-color: #523000;
+    color: white;
+    border-radius: 7px;
+}
+
 
 .check{
     width: 99%;
@@ -64,6 +87,7 @@ header{
     background-color: #523000;
     border-radius: 10px;
     color: white;
+    /* border: 0; */
 }
 
 
