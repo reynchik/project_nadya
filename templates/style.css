@@ -20,7 +20,7 @@ main{
 }
 
 header{
-    height: 150px;
+    height: 100px;
     width: 100%;
     background-color: #C19A6B;
 }
@@ -30,13 +30,17 @@ header{
     height: 100px;
     background-color: #C19A6B;
     margin-top: 40px;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 50px;
 }
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .account-login{
@@ -47,9 +51,9 @@ header{
     border-radius: 7px;
 }
 
-.account-sing-up{
-    height: 20px;
-    width: 4%;
+.account{
+    height: 25px;
+    width: 100px;
     background-color: #523000;
     color: white;
     border-radius: 7px;
@@ -89,6 +93,60 @@ header{
     color: white;
     /* border: 0; */
 }
+button{
+    border: 0;
+}
+
+.page-home{
+    color: #36110F;
+}
+
+.page{
+    width: 120px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.base{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-account{
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.whatsapp img{
+    width: 55px;
+}
+
+.telegram img{
+    width: 70px;
+
+}
+
+.whatsapp{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.telegram{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
 
 
 
