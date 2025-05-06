@@ -11,13 +11,18 @@
 body{
     font-family: "Roboto", sans-serif;
     background-color: #FFFDF8;
+    /* background-color: #36110F; */
+    /* width: 100%;
+    height: 100%; */
     /* background-image: url('cats1.jpg'); */
     /* background-size: 100vw 100vh; */
 }
 
-main{
-    /* background-color: #FFFDF8; */
-}
+/* main{
+    background-color: #FFFDF8;
+    width: 50%;
+    height: 700px;
+} */
 
 header{
     height: 100px;
@@ -71,22 +76,40 @@ header{
 } */
 
 .check{
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 2px #36110F solid;
+}
+
+
+
+.check-check{
+    display: flex;
+    /* padding: 10px; */
+}
+
+.check-check label{
+    margin-right: 30px;
 }
 
 .form-check{
-    width: 65%;
+    width: 35%;
     background-color: #DFBB90;
     border-radius: 10px;
     font-family: "Rubik", sans-serif;
     margin: auto;
     margin-top: 20px;
-    padding: 7px;
+    padding: 10px;
+    /* margin-right: 1235px; */
+    /* display: flex;
+    justify-content: left;
+    align-content: space-between; */
 }
 
 .form-check p{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .check label{
@@ -105,6 +128,7 @@ header{
     background-color: #523000;
     border-radius: 10px;
     color: white;
+    
     /* border: 0; */
 }
 button{
@@ -178,10 +202,12 @@ button{
 .description{
     margin-top: 20px;
     margin-left: 10px;
+    font-size: 20px;
 }
 h2{
     margin-left: 10px;
     margin-top: 10px;
+    text-align: center;
 }
 
 
