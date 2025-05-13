@@ -79,7 +79,7 @@ header{
     /* margin-top: 10px; */
     font-size: 20px;
     padding: 10px;
-    border-bottom: 2px #36110F solid;
+    border-bottom: 2px #38121094 solid;
 }
 
 
@@ -123,12 +123,12 @@ header{
 .result{
     height: 40px;
     width: 20%;
-    margin-left: 0.5%;
+    /* margin-left: 0.5%; */
     margin-top: 15px;
     background-color: #523000;
     border-radius: 10px;
     color: white;
-    
+    margin-left: 32.5%;
     /* border: 0; */
 }
 button{
@@ -209,5 +209,15 @@ h2{
     margin-top: 10px;
     text-align: center;
 }
+
+.form-check .check:last-child{
+    border: 0
+}
+
+
+
+
+
+
 
 
