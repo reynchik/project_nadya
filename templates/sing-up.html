@@ -14,8 +14,8 @@
                 <h1>meow.select -- sing-up</h1>
             </div>
             <div class="page">
-                <p class="page1 page-home">Home</p>
-                <p class="page1 page-library">Library</p>
+                <p class="page1 page-home"><a href="{{url_for('index')}}" id="home">Home</a></p>
+                <p class="page1 page-library"><a href="" id="library">Library</a></p>
             </div>
         </div>
     </header>
@@ -23,26 +23,26 @@
         <h2>Create your account</h2>
         <div class="form-registration">
             <div class="form-login">
-                <p>Username</p>
+                <p>Username:</p>
                 <div class="form-form">
                 <label class="login-label" for="text-login">
-                    <input class="login-input" type="text" id="text-login">
+                    <input class="login-input" type="text" id="text-login" name="login">
                 </label>
             </div>
             </div>
             <div class="form-email">
-                <p>E-mail</p>
+                <p>E-mail:</p>
                 <div class="form-form">
                 <label class="email-label" for="email-login">
-                    <input class="emailinput" type="email" id="email-login">
+                    <input class="email-input" type="email" id="email-login" name="email">
                 </label>
             </div>
             </div>
             <div class="form-password">
-                <p>Password</p>
+                <p>Password:</p>
                 <div class="form-form">
                 <label class="password-label" for="password-login">
-                    <input class="password-input" type="password" id="password-login">
+                    <input class="password-input" type="password" id="password-login" name="password">
                 </label>
             </div>
             </div>

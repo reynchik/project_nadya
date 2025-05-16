@@ -135,8 +135,12 @@ button{
     border: 0;
 }
 
-.page-home{
+#home{
     color: #36110F;
+}
+
+#library{
+    color: white;
 }
 
 .page{
