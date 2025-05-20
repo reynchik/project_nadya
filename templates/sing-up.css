@@ -100,6 +100,41 @@ header{
     color: white;
 }
 
+.form-registration{
+    width: 25%;
+    background-color: #DFBB90;
+    border-radius: 10px;
+    font-family: "Rubik", sans-serif;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    /* margin-right: 1235px; */
+    /* display: flex;
+    justify-content: left;
+    align-content: space-between; */
+}
+
+.form{
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 2px #38121094 solid;
+}
+
+.form-registration .form:last-child{
+    border: 0
+}
+
+button{
+    height: 40px;
+    width: 15%;
+    /* margin-left: 0.5%; */
+    margin-top: 15px;
+    background-color: #523000;
+    border-radius: 10px;
+    color: white;
+    margin-left: 37.5%;
+    border: 0;
+}
 
 
 

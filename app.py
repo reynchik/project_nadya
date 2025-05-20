@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from database import get_pictures
+# from database import get_pictures
 from flask import request
 
 app = Flask(__name__)
@@ -8,11 +8,14 @@ app = Flask(__name__)
 def index():
     return "Index Page"
 
-@app.route('/index')
+@app.route('/index', methods=['GET', 'POST'])
 def about():
-    
+    if request.method == "POST":
+        place = request.form["place"]
+        print(place)
+
     return render_template('index.html')
-app.run(debug=True)
+
 
 @app.route('/sindg-up', methods=['GET', 'POST'])
 def sing_up():
@@ -26,6 +29,8 @@ def sing_up():
 
     return render_template('sing-up.html', title="Регистрация")
 
+
+
 def add_user(usernsme, email, password):
     conn = sqlite3.connect('galllery.db')
     cursor = conn.cursor()
@@ -34,6 +39,9 @@ def add_user(usernsme, email, password):
     conn.commit()
     conn.close()
 
+
+
+app.run(debug=True)
 
 
 

@@ -20,7 +20,7 @@
                 </div>
                 <div class="button-account">
                     <button class="account login">Login</button>
-                    <button class="account sing-up">Sing-up</button>  
+                    <button class="account sing-up"><a href="{{url_for('sing_up')}}">Sing-up</a></button>  
                 </div>
         </div>
         </header>
@@ -31,28 +31,33 @@
             <div class="form-check-house check">
                 <p>место проживания с кошкой</p>
                 <div class="check-check">
+                <form action="">
                 <label class="house-label" for="radio-house">
-                    <input class="house-input" type="radio" id="radio-house" name="place">дом
+                    <input class="house-input" type="radio" id="radio-house" name="place"  value="house">дом
                 </label>
                 <label class="house-label" for="radio-house">
-                    <input class="house-input" type="radio" id="radio-house" name="place">квартира
+                    <input class="house-input" type="radio" id="radio-house" name="place" value="apps">квартира
                 </label>
+            </form>
             </div>
             </div>
             <div class="form-check-animal check">
                 <p>наличие других животных</p>
                 <div class="check-check">
+                <form action="">
                 <label class="animal-label" for="radio-animal">
                     <input class="animal-label" type="radio" id="radio-animal" name="creature">есть
                 </label>
                 <label class="animal-label" for="radio-animal">
                     <input class="animal-input" type="radio" id="radio-animal" name="creature">нет
                 </label>
+            </form>
             </div>
             </div>
             <div class="form-check-wool check">
                 <p>длинна шерсти кошки</p>
                 <div class="check-check">
+                <form action="">
                 <label class="wool-label" for="radio-wool">
                     <input class="wool-input" type="radio" id="radio-wool" name="fur">длинная
                 </label>
@@ -65,11 +70,13 @@
                 <label class="wool-label" for="radio-wool">
                     <input class="wool-input" type="radio" id="radio-wool" name="fur">без шерсти
                 </label>
+            </form>
             </div> 
             </div>
             <div class="form-check-activity check">
                 <p>активность кошки</p>
                 <div class="check-check">
+                <form action="">
                 <label class="activity-label" for="radio-activity">
                     <input class="activity-label" type="radio" id="radio-activity" name="energy">высокий
                 </label>
@@ -79,11 +86,13 @@
                 <label class="activity-label" for="radio-activity">
                     <input class="activity-input" type="radio" id="radio-activity" name="energy">низкий
                 </label>
+                </form>
             </div>    
             </div>
             <div class="form-check-meow check">
                 <p>частота мяуканья</p>
                 <div class="check-check">
+                <form action="">
                 <label class="meow-label" for="radio-meow">
                     <input class="meow-label" type="radio" id="radio-meow" name="voice">часто
                 </label>
@@ -93,11 +102,13 @@
                 <label class="meow-label" for="radio-meowl">
                     <input class="meow-input" type="radio" id="radio-meow" name="voice">редко
                 </label>
+            </form>    
             </div>
             </div>
             <div class="form-check-care check">
                 <p>уход  за кошкой</p>
                 <div class="check-check">
+                <form action="">
                 <label class="care-label" for="radio-care">
                     <input class="care-label" type="radio" id="radio-care" name="maintenance">сложно
                 </label>
@@ -107,6 +118,7 @@
                 <label class="care-label" for="radio-care">
                     <input class="care-input" type="radio" id="radio-care" name="maintenance">легко
                 </label>
+                </form>
             </div>
             </div>
         </div>

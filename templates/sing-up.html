@@ -11,7 +11,7 @@
         <div class="header">
             <div class="base">
                 <img src="" alt="лого">
-                <h1>meow.select -- sing-up</h1>
+                <h1>meow.select — sing-up</h1>
             </div>
             <div class="page">
                 <p class="page1 page-home"><a href="{{url_for('index')}}" id="home">Home</a></p>
@@ -22,28 +22,34 @@
     <main>
         <h2>Create your account</h2>
         <div class="form-registration">
-            <div class="form-login">
+            <div class="form-login form">
                 <p>Username:</p>
                 <div class="form-form">
+                    <form action="">
                 <label class="login-label" for="text-login">
-                    <input class="login-input" type="text" id="text-login" name="login">
+                    <input class="login-input" type="text" id="text-login" name="login" placeholder="Username">
                 </label>
+                </form>
             </div>
             </div>
-            <div class="form-email">
+            <div class="form-email form">
                 <p>E-mail:</p>
                 <div class="form-form">
+                    <form action="">
                 <label class="email-label" for="email-login">
-                    <input class="email-input" type="email" id="email-login" name="email">
+                    <input class="email-input" type="email" id="email-login" name="email" placeholder="Email">
                 </label>
+                </form>
             </div>
             </div>
-            <div class="form-password">
+            <div class="form-password form">
                 <p>Password:</p>
                 <div class="form-form">
+                    <form action="">
                 <label class="password-label" for="password-login">
-                    <input class="password-input" type="password" id="password-login" name="password">
+                    <input class="password-input" type="password" id="password-login" name="password" placeholder="Password">
                 </label>
+                </form>
             </div>
             </div>
         </div>
