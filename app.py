@@ -4,20 +4,25 @@ from flask import request
 
 app = Flask(__name__)
 
-@app.route('/')
-def index():
-    return "Index Page"
 
-@app.route('/index', methods=['GET', 'POST'])
-def about():
+@app.route('/', methods=['GET', 'POST'])
+def index():
     if request.method == "POST":
         place = request.form["place"]
-        print(place)
+        
+        creature = request.form["creature"]
+        fur = request.form["fur"]
+        energy = request.form["energy"]
+        voice = request.form["voice"]
+        maintenance = request.form["maintenance"]
 
+        print(place, creature, fur, energy, voice, maintenance)
+
+    
     return render_template('index.html')
 
 
-@app.route('/sindg-up', methods=['GET', 'POST'])
+@app.route('/sing_up', methods=['GET', 'POST'])
 def sing_up():
     if request.metod == 'POST':
         username = request.form['username']

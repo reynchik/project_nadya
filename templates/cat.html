@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cat_for_you</title>
+    <link rel="stylesheet" href="../static/cat.css">
+</head>
+<body>
+    <header>
+            <div class="header">
+                <div class="base">
+                    <img src="" alt="лого сайта с кошкой">
+                    <h1>meow.select</h1>
+                </div>
+                <div class="page">
+                    <p class="page1 page-home"><a href="{{url_for('index')}}" id="home">Home</a></p>
+                    <p class="page1 page-library"><a href="" id="library">Library</a></p>
+                </div>
+                <div class="button-account">
+                    <button class="account login">Login</button>
+                    <button class="account sing-up"><a href="{{url_for('sing_up')}}">Sing-up</a></button>  
+                </div>
+        </div>
+        </header>
+    <main>
+        <h2>исходя из результатов вам нужна:</h2>
+        <h3>крокодил🐊</h3>
+
+    </main>
+    <div class="bottom">
+        <div class="information">
+            <p>"meow.select" by ndk</p>
+        </div>
+        <div class="cats">
+            <img src="../static/img/котики в кедах.jpg" alt="">
+            <img src="../static/img/котики в ванной.jpg" alt="">
+            <img src="../static/img/рыжий и серый котики.jpg" alt="">
+        </div>
+        <div class="contact">
+            <p>Контакты</p>
+            <div class="whatsapp">
+                <p>Whatsapp</p>
+                <img src="../static/img/whatsapp-logo.png" alt="лого ватсапа">
+            </div>
+            <div class="telegram">
+                <p>Telegram</p>
+                <img src="../static/img/telegram-logo.png" alt="">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
